@@ -1,8 +1,10 @@
-﻿using System;
+﻿using Hiho.Finance;
+using System;
 
 namespace HihoMain
 {
     using Normal = Hiho.Math.NormalStandardDistribution;
+    using BS = Hiho.Finance.BlackScholes;
 
     class Program
     {
@@ -21,6 +23,15 @@ namespace HihoMain
             Console.WriteLine(Normal.Cdf(0.4) - 0.655421741610324);
             Console.WriteLine(Normal.Cdf(0.5) - 0.691462461274013);
             Console.WriteLine(Normal.Cdf(0.6) - 0.725746882249926);
+
+            Console.WriteLine(BS.EuropeanOption(100, 1, 100, 0.2, 0.05, OptionType.Call) - 10.450575619322300);
+            Console.WriteLine(BS.EuropeanOption(100, 1, 100, 0.2, 0.05, OptionType.Put) - 5.573518069393707);
+            Console.WriteLine(BS.EuropeanOption(100, 3, 100, 0.2, 0.05, OptionType.Call) - 20.924371241045776);
+            Console.WriteLine(BS.EuropeanOption(100, 3, 100, 0.2, 0.05, OptionType.Put) - 6.995168883551568);
+            Console.WriteLine(BS.EuropeanOption(110, 1, 100, 0.2, 0.05, OptionType.Call) - 6.040077440561824);
+            Console.WriteLine(BS.EuropeanOption(110, 1, 100, 0.2, 0.05, OptionType.Put) - 10.675314135640370);
+            Console.WriteLine(BS.EuropeanOption(110, 3, 100, 0.2, 0.05, OptionType.Call) - 16.210868138551504);
+            Console.WriteLine(BS.EuropeanOption(110, 3, 100, 0.2, 0.05, OptionType.Put) - 10.888745545307848);
         }
     }
 }
