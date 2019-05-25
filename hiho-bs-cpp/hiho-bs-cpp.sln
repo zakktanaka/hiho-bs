@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "include", "include", "{6C6A
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hiho", "include\hiho\hiho.vcxproj", "{3EDE95F5-29CD-4BD6-833E-E0BC2D7A1E6E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{041F3F48-4750-4E98-8160-D304688BDE6C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hiho", "test\hiho\hiho.vcxproj", "{63E8F481-9E38-4E63-8CF5-A73FE05A0208}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -23,12 +27,21 @@ Global
 		{3EDE95F5-29CD-4BD6-833E-E0BC2D7A1E6E}.Release|x64.Build.0 = Release|x64
 		{3EDE95F5-29CD-4BD6-833E-E0BC2D7A1E6E}.Release|x86.ActiveCfg = Release|Win32
 		{3EDE95F5-29CD-4BD6-833E-E0BC2D7A1E6E}.Release|x86.Build.0 = Release|Win32
+		{63E8F481-9E38-4E63-8CF5-A73FE05A0208}.Debug|x64.ActiveCfg = Debug|x64
+		{63E8F481-9E38-4E63-8CF5-A73FE05A0208}.Debug|x64.Build.0 = Debug|x64
+		{63E8F481-9E38-4E63-8CF5-A73FE05A0208}.Debug|x86.ActiveCfg = Debug|Win32
+		{63E8F481-9E38-4E63-8CF5-A73FE05A0208}.Debug|x86.Build.0 = Debug|Win32
+		{63E8F481-9E38-4E63-8CF5-A73FE05A0208}.Release|x64.ActiveCfg = Release|x64
+		{63E8F481-9E38-4E63-8CF5-A73FE05A0208}.Release|x64.Build.0 = Release|x64
+		{63E8F481-9E38-4E63-8CF5-A73FE05A0208}.Release|x86.ActiveCfg = Release|Win32
+		{63E8F481-9E38-4E63-8CF5-A73FE05A0208}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{3EDE95F5-29CD-4BD6-833E-E0BC2D7A1E6E} = {6C6AFEE1-BCA3-49D9-806B-3BE55824E133}
+		{63E8F481-9E38-4E63-8CF5-A73FE05A0208} = {041F3F48-4750-4E98-8160-D304688BDE6C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0477DD0D-63AE-4AD6-B857-61A07FC5A888}
