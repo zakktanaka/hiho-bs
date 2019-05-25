@@ -45,7 +45,7 @@
     <IncludePath>$(SolutionDir)\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemGroup>
-    <ClCompile Include="test.cpp" />
+    <ClCompile Include="finance\BlackScholesTest.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
