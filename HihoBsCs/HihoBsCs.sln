@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28922.388
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HihoBsCs", "HihoBsCs\HihoBsCs.csproj", "{EDB4EA58-04DE-4E3D-A5D6-43D22DB91DEA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hiho", "Hiho\Hiho.csproj", "{0367C7A9-C313-4138-9692-CD42D77DDDEF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EDB4EA58-04DE-4E3D-A5D6-43D22DB91DEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EDB4EA58-04DE-4E3D-A5D6-43D22DB91DEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EDB4EA58-04DE-4E3D-A5D6-43D22DB91DEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EDB4EA58-04DE-4E3D-A5D6-43D22DB91DEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0367C7A9-C313-4138-9692-CD42D77DDDEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0367C7A9-C313-4138-9692-CD42D77DDDEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0367C7A9-C313-4138-9692-CD42D77DDDEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0367C7A9-C313-4138-9692-CD42D77DDDEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
